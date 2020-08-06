@@ -6,12 +6,8 @@ def loop_message_n_times(message, n)
   n.times {puts message}
 end
 
-def output_array(message, n)
-  counter = 0
-  while n >= counter do
-    puts message
-    counter += 1
-  end
+def output_array(message)
+  message.each {|message| puts message}
 end
 
 def return_string_array(array)
