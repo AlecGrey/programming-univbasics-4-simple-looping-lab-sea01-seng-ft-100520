@@ -11,6 +11,7 @@ def output_array(message, n)
   while n >= counter do
     puts message
     counter += 1
+  end
 end
 
 def return_string_array(array)
