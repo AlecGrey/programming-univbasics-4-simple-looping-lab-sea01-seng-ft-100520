@@ -7,7 +7,7 @@ def loop_message_n_times(message, n)
 end
 
 def output_array(message, n)
-    message.each {|message| puts message}
+  message.each {|message| puts message}
 end
 
 def return_string_array(array)
